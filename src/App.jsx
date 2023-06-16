@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import styled from '@emotion/styled'
+import Formulario from './components/Formulario';
 import ImagenCripto from './img/imagen-criptos.png'
 
 const Contenedor = styled.div`
@@ -32,9 +33,10 @@ const Heading = styled.h1`
     content: '';
     width: 100px;
     height: 6px;
-    background-color: #66A2FE;
+    background-color: #8afe66;
     display: block;
     margin: 10px auto 0 auto;
+    border-radius: 3px;
   }
 `;
 
@@ -49,6 +51,7 @@ function App() {
         />
         <div>
           <Heading>Cotiza  Ciptomonedas al Instante</Heading>
+          <Formulario />
         </div>
       </Contenedor>
       
