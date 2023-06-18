@@ -55,12 +55,14 @@ const Formulario = ({setMonedas}) => {
 
     if ([moneda, criptomoneda].includes('')) {
       setError(true)
-      setMonedas({
-        moneda,
-        criptomoneda
-      })
+      
       return
     }
+    setError(false)
+    setMonedas({
+      moneda,
+      criptomoneda
+    })
   }
 
   return (
