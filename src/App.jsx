@@ -74,9 +74,8 @@ function App() {
           <Formulario 
             setMonedas={setMonedas}
           />
+           {resultado.PRICE && <Resultado resultado={resultado} />}
         </div>
-
-        {resultado.PRICE && <Resultado resultado={resultado} />}
         
       </Contenedor>
       
