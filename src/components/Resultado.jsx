@@ -10,7 +10,7 @@ const Contenedor = styled.div`
 const Imagen =styled.img`
   display: block;
   width: 150px;
-  gap: 1rem;
+  margin-right: 1rem;
   margin-top: 50px;
 `;
 
